@@ -60,11 +60,6 @@ function mostrarp(divNum,btns){
 	document.getElementById("btn4").classList.remove("activo");
 	document.getElementById("btn5").classList.remove("activo");
 	document.getElementById("btn6").classList.remove("activo");
-	document.getElementById("btn7").classList.remove("activo");
-	document.getElementById("btn8").classList.remove("activo");
-	document.getElementById("btn9").classList.remove("activo");
-	document.getElementById("btn10").classList.remove("activo");
-	document.getElementById("btn11").classList.remove("activo");
 
   
 	// Show the specific div
