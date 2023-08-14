@@ -70,7 +70,7 @@ a {
   background-size: 102% 106%;
   background-repeat: no-repeat;
   max-width: 100%;
-  background-image: url("bg-index-02.png");
+  background-image: url("bg-index-01.png");
 }
 
 .gris {
@@ -102,7 +102,7 @@ a {
   color: #ffffff;
   width: 171px;
   height: 34px;
-  font-size: 18px;
+  font-size: 20px;
   justify-content: center;
   border: solid #ffffff 1px;
   border-radius: 20px;
@@ -128,7 +128,7 @@ a {
 
 .contep {
   position: absolute;
-  margin-top: 121px;
+  margin-top: 178px;
   width: 96%;
   height: 80px;
   margin-left: 4%;
@@ -138,11 +138,11 @@ a {
 .princ {
   color: rgba(0, 0, 0, 0);
   border-radius: 10px;
-  width: 50px;
-  height: 50px;
-  margin: 44px;
+  width: 149px;
+  height: 76px;
+  margin: 9px;
   border: solid #fff 3px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -166,13 +166,18 @@ a {
 
 .btn1 {
   background-color: #0f102b;
-  line-height: 1.3;
-  font-size: 36px;
+  line-height: 1.2;
+  font-size: 19px;
   color: #ffffff;
+  padding-top: 16px;
 }
 
 .btn2 {
-  margin-top: 214px;
+  background-color: #0f102b;
+  line-height: 1.2;
+  font-size: 19px;
+  color: #ffffff;
+  padding-top: 25px;
 }
 
 .btn3 {
@@ -199,7 +204,6 @@ a {
 .princ:hover {
   background-color: rgba(0, 170, 191, 0.7);
   border: solid #d18a29 4px;
-  line-height: 1.3;
 }
 
 .nombre {
@@ -588,10 +592,10 @@ a {
 
 .texto1 {
   position: absolute;
-  margin-top: -289px;
+  margin-top: -238px;
   margin-left: 60px;
   width: 90%;
-  height: 55%;
+  height: 45%;
   background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   border-radius: 20px;
@@ -667,27 +671,27 @@ li {
 }
 
 .parr {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .parr2 {
-  margin-top: 27px ;
+  margin-top: 22px;
 }
 
 .parr3 {
-  margin-top: 31px;
+  margin-top: 0px;
 }
 
 .parr4 {
-  margin-top: 27px;
+  margin-top: 33px;
 }
 
 .parr5 {
-  margin-top: 50px;
+  margin-top: 36px;
 }
 
 .parr6 {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .parr7 {
@@ -708,23 +712,4 @@ li {
 
 .parr11 {
   margin-top: 23px;
-}
-
-.conteimatex {
-  display: flex;
-}
-
-.imagder {
-  margin-top: 36px;
-  width: 338px;
-  height: 135px;
-  margin-left: 16px;
-}
-
-.logo-egade {
-  position: absolute;
-  width: 224px;
-  height: auto;
-  margin-top: 19px;
-  margin-left: 630px;
 }

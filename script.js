@@ -47,20 +47,14 @@ function mostrarp(divNum,btns){
 	document.getElementById("text3").classList.add("hide");
 	document.getElementById("text4").classList.add("hide");
 	document.getElementById("text5").classList.add("hide");
-	document.getElementById("text6").classList.add("hide");
-	document.getElementById("text7").classList.add("hide");
-	document.getElementById("text8").classList.add("hide");
-	document.getElementById("text9").classList.add("hide");
-	document.getElementById("text10").classList.add("hide");
-	document.getElementById("text11").classList.add("hide");
+	
 
 	document.getElementById("btn1").classList.remove("activo");
 	document.getElementById("btn2").classList.remove("activo");
 	document.getElementById("btn3").classList.remove("activo");
 	document.getElementById("btn4").classList.remove("activo");
 	document.getElementById("btn5").classList.remove("activo");
-	document.getElementById("btn6").classList.remove("activo");
-
+	
   
 	// Show the specific div
 	document.getElementById("text" + divNum).classList.remove("hide");
